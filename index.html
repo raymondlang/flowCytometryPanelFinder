@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flow Cytometry Applications</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Flow Cytometry Applications</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Flow Cytometry</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#panels">Panels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <form>
+            <input type="text" id="search-input" placeholder="Search for panels">
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        <form>
+            <label for="sample-type">Sample Type:</label>
+            <select id="sample-type">
+                <option value="all">All</option>
+                <option value="blood">Blood</option>
+                <option value="tissue">Tissue</option>
+            </select>
+            <label for="application">Application:</label>
+            <select id="application">
+                <option value="all">All</option>
+                <option value="immunology">Immunology</option>
+                <option value="oncology">Oncology</option>
+            </select>
+            <input type="checkbox" id="cell-marker-1">
+            <label for="cell-marker-1">Cell Marker 1</label>
+            <input type="checkbox" id="cell-marker-2">
+            <label for="cell-marker-2">Cell Marker 2</label>
+            <button type="submit" id="filter-button">Filter</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="#receptor-occupancy">Receptor Occupancy</a></li>
+                <li><a href="#high-content-immunophenotyping">High-Content Immunophenotyping</a></li>
+                <li><a href="#real-time-flow-cytometry">Real-Time Flow Cytometry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="receptor-occupancy">
+            <h2>Receptor Occupancy Flow Cytometry</h2>
+            <p>Receptor occupancy flow cytometry is a powerful tool for measuring the occupancy of receptors on the
+                surface of cells...</p>
+        </section>
+        <section id="high-content-immunophenotyping">
+            <h2>High-Content Immunophenotyping</h2>
+            <p>High-content immunophenotyping is a flow cytometry-based technique that allows for the simultaneous
+                measurement of multiple...</p>
+        </section>
+        <section id="real-time-flow-cytometry">
+            <h2>Real-Time Flow Cytometry</h2>
+            <p>Real-time flow cytometry is a powerful tool for analyzing the behavior of cells in real-time...</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©2022 Flow Cytometry Applications</p>
+    </footer>
+</body>
+
+</html>
